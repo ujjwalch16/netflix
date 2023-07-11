@@ -1,0 +1,263 @@
+:root{
+    primary: color #e50941;
+    dark-color: #fff;
+}
+*{
+    box-sizing: border-box;
+    margin: 1;
+    padding: 1px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    -webkit-font-smoothing:antiakiased;
+    background: black;
+    color: #9e9999;
+}
+ul{
+    list-style:none;
+  }
+a{
+    color :#fff;
+    text-decoration:none;
+  }
+.gfhd{
+    width: 250px;
+    mix-blend-mode:normal;
+    margin-top: 2rem;
+    
+  }
+.h1{
+    color:wheat;
+    text-align:center;
+    position:relative; 
+    z-index:2;
+    text-shadow: 2px 2px 4px #d66262;
+    margin-top: 10rem;
+    
+}
+.show{
+    max-width: 100%;
+    show:relative;
+    show:relative;
+    background:url('IN-en-20230703-popsignuptwoweeks-perspective_alpha_website_medium.jpg') center center/cover ;
+    height:37rem;
+    margin-top:-21px;
+  }
+.show::after{
+    content:'';
+    position:absolute ;
+    top:0;
+    left:0;
+    bottom:10;
+    width:100%;
+    height:100%;
+    z-index:1;
+    background:rgba(26, 25, 25, 0.6) ;
+    box-shadow:inset 5px 43px 10px #080808;
+    
+}
+.p1{
+    position:relative; 
+    z-index:2;
+    color:wheat;
+    text-align: center;
+}
+.show-top{
+    position:relative;
+    height:90px;
+}
+.bts{
+    background-color:red;   
+    position:relative ;
+    z-index:2;
+    color:#fff;
+    padding:5px 8px;
+    border:none;
+    margin-left:57.9rem;
+
+}
+
+.showcase{
+    position:relative;
+    z-index:2;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    justify content:center;
+    align items:center ;
+    text-align:center;
+    margin-top:0.2rem;
+}
+.Email{
+    input::placeholder{
+        color:#fff;
+        font-size:1.4rem;
+        font-style:italic;
+    }
+}
+
+.Email input{
+padding:14px;
+width:50%; 
+}
+.btn2{
+    width:8rem;
+    padding:10px 10px;
+    background-color:red;
+    color:white;
+    margin-left:63rem;
+    margin-top: -2.9rem;
+    text-align:center;
+    font-size:1rem;
+}
+.sectionup{
+    color:#303030;
+    position:relative ;
+    z-index:1;
+    padding-top:-3rem;
+    border-bottom: 9px solid #3d3d3d;   
+}
+.showcaseunder{
+    color:white;
+    padding:1rem;
+    position:relative ;
+    z-index:2;
+    display:block ;
+    text-align:center ;
+    margin-top:1.7rem;
+}
+.showcase-underimg{
+    margin-top:5rem;
+    margin-bottom:4rem;
+}
+.img1{
+    padding:50px; 
+    margin-top:-7rem;
+    margin-right: -4rem;
+ }
+ 
+.img2{
+
+    margin-top:-27.9rem;
+    margin-left: -45rem;
+}
+.down0{
+    color:white;
+    padding:1rem;
+    margin-top:1.7rem;
+    display:block;
+    text-align:center ;
+    margin-bottom:1.8rem;   
+}
+.down1{
+    margin:1rem;
+    margin-top:2rem;
+    display:block;
+    text-align:center ;
+    margin-bottom:1.8rem;
+    padding:0;
+    
+}
+.downing1{
+    display:block;
+}
+
+.img-5{
+ padding:4.5rem;
+ height:18rem;
+ margin-top:-4rem;
+ margin-bottom:3rem;
+ 
+}
+
+.img-6{
+margin-top:-18rem;
+}
+.sectionlow{
+    width:100%;
+    display:flex;
+}
+
+.box1{
+    width:100%;
+    max-width:80rem;
+    margin:0 auto ;
+    padding:0 0.3rem;  
+    margin-bottom:0.5rem; 
+}
+
+.k{
+    margin-bottom:2rem;
+    margin-top:2rem;
+}
+
+.accorditem{
+    background-color:#383838;
+    margin-bottom:1rem;
+    padding:0.5rem;
+    margin-top:-0.5rem;
+}
+
+.accordlink{
+    font-size:1.1rem;
+    color:#fff;
+    text-decoration:none;
+    background-color:#383838;
+    width:100%;
+    display:flex;
+    align-items:center ;
+    justify-content:space-between;
+    padding:0.5rem;    
+}
+.accorditem:target .accordlink .add{
+    display:none;
+}
+
+.footer{
+    margin-top:2.5rem;
+    margin-bottom:4rem;
+    color:#707070;
+    margin-left:1.5rem;
+}
+
+ul{
+    margin-bottom:1rem;
+    margin-top:3rem;
+    font-size:0.8rem;
+    margin-left:-1.3rem;
+    margin-right:2rem;
+    list-style:none;
+    color:#707070;
+    display:inline-block; 
+    float:left;
+    margin-bottom:2rem;
+}
+
+li{
+    color:#707070;
+    margin-left:1.5rem;
+}
+.infooter{
+    width:95%;
+    margin:auto;
+    padding:30px 10px;
+    display:flex;
+    flex-wrap:wrap;
+    box-sizing:border-box;
+    justify-content:center ;
+    
+}
+
+.p0{
+    color:#707070;
+    margin-top:-2rem;
+    margin-right:10rem;
+    margin-left:1.5rem;
+    font-size:0.8rem;
+    margin-bottom:3rem;
+    
+}
+
+
+
